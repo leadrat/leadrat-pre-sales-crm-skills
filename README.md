@@ -19,24 +19,53 @@ The **LeadRat MCP connector** must be connected in Claude before using any of th
 
 ### Claude Code
 
+**Step 1 — Clone this repository**
+
 ```bash
-# Clone this repository
 git clone https://github.com/leadrat/leadrat-pre-sales-crm-skills.git
-
-# Copy the skill folder(s) you want into Claude's skills directory
-cp -r leadrat-pre-sales-crm-skills/sales-performance-gap-analysis ~/.claude/skills/
+cd leadrat-pre-sales-crm-skills
 ```
 
-Repeat the `cp` command for each skill you want to install, or copy all at once:
+**Step 2 — Create the skills directory (if it doesn't exist)**
 
 ```bash
-cp -r leadrat-pre-sales-crm-skills/*/ ~/.claude/skills/
+mkdir -p ~/.claude/skills
 ```
+
+**Step 3 — Install the skill(s) you want**
+
+Copy a single skill:
+
+```bash
+cp -r sales-performance-gap-analysis ~/.claude/skills/
+```
+
+Or install all skills at once:
+
+```bash
+cp -r */ ~/.claude/skills/
+```
+
+**Step 4 — Verify the installation**
+
+```bash
+ls ~/.claude/skills/
+```
+
+You should see the skill folder(s) listed. Claude Code will pick them up automatically on next startup.
+
+> **Tip:** Repeat Step 3 for any additional skills you want to add later.
+
+---
 
 ### Claude.ai (Web)
 
-1. Go to **Settings → Capabilities → Skills**.
-2. Click **Add Skill** and upload the desired skill folder, or point Claude.ai at this repository.
+1. Open [claude.ai](https://claude.ai) and go to **Settings → Capabilities → Skills**.
+2. Click **Add Skill**.
+3. Choose **Upload folder** and select the skill folder from your local clone (e.g. `sales-performance-gap-analysis/`), **or** paste the GitHub repository URL to point Claude.ai directly at this repo.
+4. Repeat for each skill you want to activate.
+
+> **Note:** Each skill folder contains a `SKILL.md` file — that is the file Claude reads to understand the skill. You do not need to edit it.
 
 ---
 
