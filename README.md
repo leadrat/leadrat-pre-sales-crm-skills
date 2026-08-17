@@ -43,7 +43,7 @@ cp -r sales-performance-gap-analysis ~/.claude/skills/
 Or install all skills at once:
 
 ```bash
-cp -r .claude-plugin */ ~/.claude/skills/
+cp -r */ ~/.claude/skills/
 ```
 
 **Step 4 — Verify the installation**
@@ -65,7 +65,7 @@ You should see the skill folder(s) listed. Claude Code will pick them up automat
 3. Choose **Upload folder** and select the skill folder from your local clone (e.g. `sales-performance-gap-analysis/`), **or** paste the GitHub repository URL to point Claude.ai directly at this repo.
 4. Repeat for each skill you want to activate.
 
-> **Note:** The repository root includes `.claude-plugin/plugin.json`, and each skill folder contains its own `SKILL.md`. Claude reads each `SKILL.md` for the skill instructions, while the root plugin manifest lists the bundled skills for plugin-aware installs.
+> **Note:** The repository root includes `.claude-plugin/plugin.json`, and each skill folder contains its own `SKILL.md`. Claude reads each `SKILL.md` for the skill instructions. The root plugin manifest is for plugin-aware installs that point Claude at the repository root.
 
 ---
 
