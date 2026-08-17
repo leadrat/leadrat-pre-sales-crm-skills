@@ -65,7 +65,7 @@ You should see the skill folder(s) listed. Claude Code will pick them up automat
 3. Choose **Upload folder** and select the skill folder from your local clone (e.g. `sales-performance-gap-analysis/`), **or** paste the GitHub repository URL to point Claude.ai directly at this repo.
 4. Repeat for each skill you want to activate.
 
-> **Note:** Each skill folder contains a `SKILL.md` file — that is the file Claude reads to understand the skill. You do not need to edit it.
+> **Note:** Each skill folder includes `SKILL.md` plus `.claude-plugin/plugin.json`. Claude reads `SKILL.md` for the skill instructions, and the plugin manifest is already bundled for plugin-aware installs.
 
 ---
 

@@ -1,0 +1,13 @@
+{
+  "name": "revenue-performance-gap-analysis",
+  "version": "1.0.0",
+  "description": "Use this skill when the user asks to understand revenue drivers, revenue decline areas, or growth opportunities across projects, sources, and agents \u2014 requires LeadRat MCP tool access.",
+  "repository": "https://github.com/leadrat/leadrat-pre-sales-crm-skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-skill",
+    "leadrat",
+    "crm",
+    "pre-sales"
+  ]
+}

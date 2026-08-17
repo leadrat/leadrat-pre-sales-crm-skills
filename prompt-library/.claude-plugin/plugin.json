@@ -1,0 +1,13 @@
+{
+  "name": "prompt-library",
+  "version": "1.0.0",
+  "description": "Use this skill when the user needs a reference set of drill-down prompts for LeadRat MCP analysis across sales, marketing, agent, funnel, follow-up, project, revenue, and management categories \u2014 requires LeadRat MCP tool access.",
+  "repository": "https://github.com/leadrat/leadrat-pre-sales-crm-skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-skill",
+    "leadrat",
+    "crm",
+    "pre-sales"
+  ]
+}

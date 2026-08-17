@@ -1,0 +1,13 @@
+{
+  "name": "marketing-performance-gap-analysis",
+  "version": "1.0.0",
+  "description": "Use this skill when the user asks to understand which marketing sources or campaigns generate quality leads and revenue, or to identify underperforming channels and marketing gaps \u2014 requires LeadRat MCP tool access.",
+  "repository": "https://github.com/leadrat/leadrat-pre-sales-crm-skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-skill",
+    "leadrat",
+    "crm",
+    "pre-sales"
+  ]
+}

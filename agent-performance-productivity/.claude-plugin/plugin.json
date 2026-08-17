@@ -1,0 +1,13 @@
+{
+  "name": "agent-performance-productivity",
+  "version": "1.0.0",
+  "description": "Use this skill when the user asks to evaluate how effectively each sales agent handles or converts assigned opportunities, or to identify coaching areas and productivity gaps \u2014 requires LeadRat MCP tool access.",
+  "repository": "https://github.com/leadrat/leadrat-pre-sales-crm-skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-skill",
+    "leadrat",
+    "crm",
+    "pre-sales"
+  ]
+}

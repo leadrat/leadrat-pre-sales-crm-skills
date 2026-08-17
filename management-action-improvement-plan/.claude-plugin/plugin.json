@@ -1,0 +1,13 @@
+{
+  "name": "management-action-improvement-plan",
+  "version": "1.0.0",
+  "description": "Use this skill when the user asks to synthesise sales, marketing, team, funnel, project, and revenue insights into a prioritised action plan with expected business impact \u2014 requires LeadRat MCP tool access.",
+  "repository": "https://github.com/leadrat/leadrat-pre-sales-crm-skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-skill",
+    "leadrat",
+    "crm",
+    "pre-sales"
+  ]
+}

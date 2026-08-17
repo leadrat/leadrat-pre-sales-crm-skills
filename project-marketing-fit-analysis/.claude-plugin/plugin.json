@@ -1,0 +1,13 @@
+{
+  "name": "project-marketing-fit-analysis",
+  "version": "1.0.0",
+  "description": "Use this skill when the user asks whether the right marketing sources are generating quality demand for each project, or to identify best-fit and poor-fit source-project combinations \u2014 requires LeadRat MCP tool access.",
+  "repository": "https://github.com/leadrat/leadrat-pre-sales-crm-skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-skill",
+    "leadrat",
+    "crm",
+    "pre-sales"
+  ]
+}

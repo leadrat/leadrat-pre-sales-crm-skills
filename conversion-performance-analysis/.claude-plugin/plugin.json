@@ -1,0 +1,13 @@
+{
+  "name": "conversion-performance-analysis",
+  "version": "1.0.0",
+  "description": "Use this skill when the user asks to track how effectively leads move through the sales journey stage by stage, or to highlight major drop-offs and conversion gaps \u2014 requires LeadRat MCP tool access.",
+  "repository": "https://github.com/leadrat/leadrat-pre-sales-crm-skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-skill",
+    "leadrat",
+    "crm",
+    "pre-sales"
+  ]
+}
