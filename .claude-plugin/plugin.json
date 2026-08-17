@@ -1,0 +1,25 @@
+{
+  "name": "leadrat-pre-sales-crm-skills",
+  "version": "1.0.0",
+  "description": "LeadRat MCP Claude Skills for pre-sales CRM analysis across sales, marketing, funnel, follow-up, project, revenue, and management workflows.",
+  "repository": "https://github.com/leadrat/leadrat-pre-sales-crm-skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-skill",
+    "leadrat",
+    "crm",
+    "pre-sales"
+  ],
+  "skills": [
+    "./agent-performance-productivity",
+    "./conversion-performance-analysis",
+    "./followup-sales-execution-gap-analysis",
+    "./funnel-performance-bottleneck-analysis",
+    "./management-action-improvement-plan",
+    "./marketing-performance-gap-analysis",
+    "./project-marketing-fit-analysis",
+    "./prompt-library",
+    "./revenue-performance-gap-analysis",
+    "./sales-performance-gap-analysis"
+  ]
+}
